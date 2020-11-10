@@ -21,6 +21,7 @@ const establishDatabaseConnection = async (): Promise<void> => {
 };
 
 const initializeExpress = (): void => {
+  console.log('Init express...');
   const app = express();
 
   app.use(cors());

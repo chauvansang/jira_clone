@@ -32,7 +32,9 @@
     "react/jsx-fragments": [2, "element"],
     "react/state-in-constructor": 0,
     "react/jsx-props-no-spreading": 0,
-    "jsx-a11y/click-events-have-key-events": 0
+    "jsx-a11y/click-events-have-key-events": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/no-unescaped-entities": 0
   },
   "settings": {
     // Allows us to lint absolute imports within codebase
